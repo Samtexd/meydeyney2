@@ -1,0 +1,58 @@
+{
+  "bot-account": {
+    "username": "GoodAppleBOT"
+  },
+
+  "server": {
+    "ip": "UltraHardcoreUHC.aternos.me",
+    "port": 44017,
+    "version": "1.16.5" 
+  },
+
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": false,
+      "password": "Şifre"
+    },
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": false,
+      "jump": true,
+      "rotate": false,
+
+      "hit": {
+        "enabled": false,
+        "delay": 1000,
+        "attack-mobs": false
+      },
+
+      "circle-walk": {
+        "enabled": true,
+        "radius": 20
+      }
+    },
+
+    "chat-messages": {
+      "enabled": false,
+      "repeat": false,
+      "repeat-delay": 60,
+
+      "messages": [
+        "Ben gerçek bir oyuncuyum! ",
+        "GoodApple tarafından geliştirildim. "
+      ]
+    },
+
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 10000
+  }
+}
